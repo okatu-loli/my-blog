@@ -9,7 +9,6 @@ draft: false
 ---
 
 
-![image.png](https://cdn.cnqs.moe/qianshi-cdn/2023/07/08a3f8cefb8bdffb0d57bbae41ec9e7f.png)
 
 大家好，我是千石。今天我想和大家聊聊我最近申请微软学生大使这件事。
 
