@@ -186,7 +186,7 @@ WorkingDirectory 后面的 /root/phira-mp/target/release
 ```
 **TIPS: 如果你不知道你的服务端在哪个路径，可以通过`pwd`命令查询**
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e0897e0a816c4731a0178ebecac083c9~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://cdn.cnqs.moe/qianshi-cdn/2024/09/1cf1f9ec3ce51ff566a4d2c65af8139c.image)
 
 保存并关闭文件。
 
@@ -223,7 +223,7 @@ ps -aux | grep phira-mp-server
 netstat -tuln | grep 12345
 ```
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a4ba19abbaaa4cff832da8e354e5a176~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://cdn.cnqs.moe/qianshi-cdn/2024/09/4bc994523575350836a3ceefaa6ab6d1.image)
 
 ## 对于 `Windows` 或 `Android` 用户
 
