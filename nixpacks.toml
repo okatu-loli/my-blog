@@ -1,0 +1,5 @@
+[phases.install]
+cmds = ['pnpm install', 'pnpm add sharp']
+
+[phases.build]
+cmds = ['pnpm build']
