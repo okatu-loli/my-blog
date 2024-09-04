@@ -12,7 +12,11 @@ draft: false
 
 项目的Github仓库（作者不是我）：https://github.com/TeamFlos/phira-mp
 
+::github{repo="TeamFlos/phira-mp"}
+
 本教程配套视频（可供参考）：https://www.bilibili.com/video/BV1pu411j7e5
+
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1pu411j7e5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 简体中文 | [English Version](https://github.com/okatu-loli/phira-mp/blob/main/README.md)
 
