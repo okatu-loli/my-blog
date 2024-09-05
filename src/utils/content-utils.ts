@@ -4,18 +4,18 @@ import I18nKey from '@i18n/i18nKey'
 import { i18n } from '@i18n/translation'
 
 export async function getSortedPosts(): Promise<
-  { data: BlogPostData; slug: string }[]
+    { body: string, data: BlogPostData; slug: string }[]
 > {
   const allBlogPosts = (await getCollection('posts', ({ data }) => {
     return import.meta.env.PROD ? data.draft !== true : true
-  })) as unknown as { data: BlogPostData; slug: string }[]
+  })) as unknown as { body: string, data: BlogPostData; slug: string }[]
 
   const sorted = allBlogPosts.sort(
-    (a: { data: { published: Date } }, b: { data: { published: Date } }) => {
-      const dateA = new Date(a.data.published)
-      const dateB = new Date(b.data.published)
-      return dateA > dateB ? -1 : 1
-    },
+      (a: { data: BlogPostData }, b: { data: BlogPostData }) => {
+        const dateA = new Date(a.data.published)
+        const dateB = new Date(b.data.published)
+        return dateA > dateB ? -1 : 1
+      },
   )
 
   for (let i = 1; i < sorted.length; i++) {
@@ -73,8 +73,8 @@ export async function getCategoryList(): Promise<Category[]> {
       return
     }
     count[post.data.category] = count[post.data.category]
-      ? count[post.data.category] + 1
-      : 1
+        ? count[post.data.category] + 1
+        : 1
   })
 
   const lst = Object.keys(count).sort((a, b) => {
