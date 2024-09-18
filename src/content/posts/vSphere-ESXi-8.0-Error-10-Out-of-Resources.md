@@ -12,7 +12,7 @@ draft: false
 
 这是因为当硬件机器在传统 BIOS 模式下启动时，只有一小部分内存可供引导加载程序使用。确切的数量取决于机器的硬件配置。如果可用内存太少，启动可能会失败，并显示“Out of resources”或其他类似消息。
 
-进机器BIOS后调整为EFI Boot Type即可 (不同机器可能不同，我这台机器是Huawei RH2288HV2)
+进机器BIOS后调整为EFI Boot Type或者Dual Boot Type即可 (不同机器可能不同，我这台机器是Huawei RH2288HV2)
 
 ![image-20240919002817070](https://cdn.cnqs.moe/qianshi-cdn/2024/09/ce844226a91244e67a511bfd6c049131.png)
 
