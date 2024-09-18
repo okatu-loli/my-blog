@@ -3,7 +3,7 @@ title: 引导 vSphere ESXi 8.0 提示 “Error 10 (Out of Resources)”
 published: 2024-09-19
 description: '引导 vSphere ESXi 8.0 提示 “Error 10 (Out of Resources)”'
 tags: [Esxi,linux,服务器运维,服务器]
-category: '教程'
+category: '记录'
 draft: false
 ---
 在传统BIOS引导下，引导ESXi 8.0安装镜像可能会遇到如图报错("Error 10 (Out of resources) while loading module", "Requested malloc size failed", "No free memory".)：
