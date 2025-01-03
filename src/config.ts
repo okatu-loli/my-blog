@@ -1,4 +1,5 @@
 import type {
+  CommentConfig,
   LicenseConfig,
   NavBarConfig,
   ProfileConfig,
@@ -72,4 +73,27 @@ export const licenseConfig: LicenseConfig = {
   enable: true,
   name: 'CC BY-NC-SA 4.0',
   url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+}
+
+export const commentConfig: CommentConfig = {
+  // disqus: {
+  //   shortname: 'fuwari',
+  // },
+  giscus: {
+    repo: 'okatu-loli/my-blog',
+    repoId: 'R_kgDOMsGQxg',
+    category: 'Announcements',
+    categoryId: 'DIC_kwDOMsGQxs4ClsNC',
+    mapping: 'title',
+    strict: '0',
+    reactionsEnabled: '1',
+    emitMetadata: '1',
+    inputPosition: 'top',
+    theme: 'light',
+    lang: 'zh-CN',
+    loading: 'lazy',
+  },
+  // twikoo: {
+  //   envId: 'https://twikoo-tau-flame.vercel.app',
+  // },
 }
